@@ -1,0 +1,70 @@
+body{
+    position:relative;
+}
+.logo{
+width:20%;
+}
+.intro{
+    height: 40vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url("../pics/sandalintro.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items: center;
+}
+.introp{
+    
+    width:70%;
+}
+.content{
+    display: flex;
+    margin:0 5vw;
+}
+.image{
+    
+    width:30%;
+}
+.text{
+    
+    width:70%;
+}
+.sandal{
+    
+    max-width: 100%;
+}
+.break{
+    
+}
+.sub{
+    line-height:2px;
+}
+footer{
+    width:100vw;
+    padding:5vh 0;
+    //border: 10px solid black ;
+    position:relative;
+}
+.sm{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+.sm div{
+    //border:1px solid black;
+    text-align:center;
+}
+.smbtn{
+    text-align: center;
+    width:30%;
+}
+.disclaimer{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color:grey;
+    margin:0 ;
+    padding:0;
+    position: absolute;
+    bottom:0;
+    width:100%;
+}
